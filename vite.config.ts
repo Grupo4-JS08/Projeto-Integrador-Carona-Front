@@ -10,17 +10,8 @@ export default defineConfig({
     tailwindcss()
   ],
 })
-=======
 
-  plugins: [react(),
-    tailwindcss()
-  ],
-})
-=======
-    plugins: [
-    react(), 
-    tailwindcss()
-  ],
-})
+
+
 
 
