@@ -13,26 +13,26 @@ function NavBar() {
                 <ul className="flex space-x-4">
                     <li>
                         <Link
-                            to="/contact"
+                            to="/contato"
                             className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded transition-colors"
                         >
-                            Contact
+                            Contato
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="/sobre"
+                            to="/login"
                             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors"
                         >
-                            Sign in
+                            Login
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="/contato"
-                            className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded transition-colors"
+                            to="/sobrenos"
+                            className="bg-gray-400 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded transition-colors"
                         >
-                            Register
+                            Sobre nós
                         </Link>
                     </li>
                 </ul>
