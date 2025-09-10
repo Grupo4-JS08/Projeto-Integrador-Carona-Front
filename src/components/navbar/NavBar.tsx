@@ -21,10 +21,10 @@ function NavBar() {
                     </li>
                     <li>
                         <Link
-                            to="/login"
+                            to="/produto"
                             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors"
                         >
-                            Login
+                            Produto
                         </Link>
                     </li>
                     <li>

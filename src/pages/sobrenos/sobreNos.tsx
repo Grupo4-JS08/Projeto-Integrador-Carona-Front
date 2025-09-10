@@ -31,27 +31,27 @@ export default function SobreNos() {
     {
       name: "Lívia",
       avatar: "https://i.pinimg.com/736x/a4/37/77/a43777b4a591c0b620849292e904706f.jpg",
-      bio: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.",
+      bio: "Developer Full Stack | Apaixonada por tecnologia e inovação | Adoro aprender coisas novas e enfrentar desafios",
     },
     {
       name: "Mauri",
       avatar: "https://i.pinimg.com/736x/fa/47/9f/fa479f394fe5d2a269fe128fe3f3d422.jpg",
-      bio: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.",
+      bio: "Developer Full Stack | Apaixonado por tecnologia e inovação | Adoro esportes e jogos desafiadores",
     },
     {
       name: "Raul",
       avatar: "https://i.pinimg.com/736x/fe/ba/2e/feba2e510ab65127a3b4c0acf64e651b.jpg",
-      bio: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.",
+      bio: "Developer Full Stack | Apaixonado por tecnologia e inovação | Adoro aprender coisas novas e enfrentar desafios",
     },
     {
       name: "Sarah",
       avatar: "https://i.pinimg.com/736x/4b/b1/17/4bb1177662162751c2db1d0f88168c2d.jpg",
-      bio: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.",
+      bio: "Developer Full Stack | Apaixonada por tecnologia e inovação | Foco em UI/UX e acessibilidade, gosto de transformar ideias em experiências simples e bonitas",
     },
     {
       name: "Thatiane",
       avatar: "https://i.pinimg.com/736x/43/8f/40/438f40b7b26f0c1a3bc710d2b736e818.jpg",
-      bio: "Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very short story.",
+      bio: "Developer Full Stack | Apaixonada por tecnologia e inovação | Curiosa por APIs e arquitetura de software, adoro colaborar e aprender em equipe",
     },
   ];
 
@@ -71,19 +71,32 @@ export default function SobreNos() {
         </div>
       </section>
 
-      {/* BANNER / ILUSTRAÇÃO */}
-      <section className="w-full bg-emerald-50">
-        <div className="container mx-auto px-6 py-10">
-          <div className="rounded-2xl border-2 border-emerald-100 bg-emerald-100/60 h-56 md:h-72 lg:h-80 flex items-center justify-center">
-            {/* Placeholder de imagem (troque pelo seu banner real) */}
-            <div className="text-emerald-400 text-sm md:text-base">
-              <span className="inline-block rounded-xl border border-emerald-200 px-4 py-2">
-                Área para a sua imagem/banner
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* BANNER / ILUSTRAÇÃO */}
+<section className="w-full bg-emerald-50">
+  <div className="container mx-auto px-6 py-10">
+    <div
+      className="
+        relative mx-auto max-w-5xl
+        rounded-2xl overflow-hidden     /* garante cantos perfeitos */
+        ring-1 ring-emerald-200/70      /* borda suave */
+        bg-emerald-50
+      "
+    >
+      {/* Use uma razão responsiva para evitar corte agressivo */}
+      <div className="aspect-[16/6] sm:aspect-[16/5] lg:aspect-[16/4]">
+        <img
+          src="https://i.pinimg.com/736x/73/b7/8b/73b78b02de45efe33428a8412e288e05.jpg"
+          alt="Time do Grupo 4"
+          className="w-full h-full object-cover"
+          /* Move o foco um pouco para cima para aparecerem os rostos */
+          style={{ objectPosition: "50% 20%" }}   // 50% horiz, 20% de topo
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* INTEGRANTES */}
       <section className="w-full bg-white">
